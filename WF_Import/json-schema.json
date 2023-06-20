@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "FirstRow": {
+      "type": "integer"
+    },
+    "fieldsMap": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "columnID": {
+              "type": "integer"
+            },
+            "datatype": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "columnID",
+            "datatype"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "FirstRow",
+    "fieldsMap"
+  ]
+}

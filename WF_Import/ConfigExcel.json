@@ -1,0 +1,45 @@
+{
+  "FirstRow": 2,
+  "fieldsMap": [
+    {
+      "columnID": 1,
+      "datatype": "string"
+    },
+    {
+      "columnID": 2,
+      "datatype": "int"
+    },
+    {
+      "columnID": 3,
+      "datatype": "date"
+    },
+    {
+      "columnID": 4,
+      "datatype": "string"
+    },
+    {
+      "columnID": 5,
+      "datatype": "string"
+    },
+    {
+      "columnID": 6,
+      "datatype": "string"
+    },
+    {
+      "columnID": 7,
+      "datatype": "string"
+    },
+    {
+      "columnID": 8,
+      "datatype": "string"
+    },
+    {
+      "columnID": 9,
+      "datatype": "date"
+    },
+    {
+      "columnID": 10,
+      "datatype": "date"
+    }
+  ]
+}

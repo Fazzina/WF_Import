@@ -1,0 +1,180 @@
+﻿body {
+    background: linear-gradient(90deg, #09203F 0%, #537895 100%);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.table-responsive {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.table {
+    color: black;
+}
+
+#MainContent_projectsGridView th {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background: #222;
+    color: white;
+}
+
+/* width */
+div::-webkit-scrollbar {
+    width: auto;
+}
+
+/* Track */
+div::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+div::-webkit-scrollbar-thumb {
+    border: 5px solid transparent;
+    border-radius: 50px;
+    background-color: #222;
+    background-clip: content-box;
+}
+
+    /* Handle on hover */
+    div::-webkit-scrollbar-thumb:hover {
+        background: #222;
+    }
+
+
+.jumbotron {
+    background: linear-gradient(90deg, #D7E1EC 0%, #FFFFFF 100%);
+    margin-top: 2vw;
+    color: black;
+}
+
+#MainContent_panelData {
+    background: linear-gradient(90deg, #D7E1EC 0%, #FFFFFF 100%);
+    color: black;
+}
+
+
+#MainContent_ImportButton:link,
+#MainContent_ImportButton:visited,
+#MainContent_ExportButton:link,
+#MainContent_ExportButton:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+    position: absolute;
+}
+
+#MainContent_ImportButton:hover,
+#MainContent_ExportButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    background-position: left;
+    transition: .3s ease-out;
+}
+
+#MainContent_ImportButton:active,
+#MainContent_ExportButton:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#MainContent_ImportButton,
+#MainContent_ExportButton {
+    background: linear-gradient(to left, #fff 50%, #0275d8 50%) right;
+    background-size: 200% 100%;
+    color: #0275d8;
+}
+
+#MainContent_ShowButton {
+    color: white;
+}
+
+    #MainContent_ShowButton:hover {
+        text-shadow: 5px 5px 5px black;
+        color: #0275d8;
+    }
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra verticalmente il contenuto */
+}
+
+
+.popup-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    margin: auto;
+}
+
+    .popup-image img {
+        width: 100px;
+        margin-top: -73px;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+.popup-close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+    .popup-close:hover, .popup-close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.popup-text {
+    margin-top: 10px;
+}
+
+
+.popup-button {
+    display: flex;
+    justify-content: center; /* centra orizzontalmente il pulsante */
+}
+
+#MainContent_popupTextSucc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
